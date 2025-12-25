@@ -849,9 +849,10 @@
   border: none;
   cursor: pointer;
   display: none;
-  padding: var(--spacing-xs);
-  background: none;
-  transition: background 0.2s ease;
+  padding: var(--spacing-sm);
+  background: transparent;
+  transition: color 0.3s ease;
+  color: var(--color-on-surface);
   border-radius: var(--border-radius-sm);
 }
  
