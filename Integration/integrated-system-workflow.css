@@ -1,0 +1,326 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-thq-navigation-container-elm {
+  background-color: var(--dl-color-theme-secondary1);
+}
+ 
+.navigation-thq-section-title-elm1 {
+  fill: var(--color);
+  color: var(--color);
+  font-family: "Exo 2";
+  background-clip: text;
+  webkit-background-clip: text;
+}
+ 
+.navigation-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+ 
+.navigation-text10 {
+  font-family: "Exo 2";
+  text-transform: uppercase;
+}
+ 
+.navigation-text11 {
+  font-family: "Exo 2";
+  text-transform: uppercase;
+}
+ 
+.navigation-thq-navigation-chevron-elm {
+  transition: transform 0.3s ease;
+}
+ 
+.navigation-text12 {
+  font-family: "Exo 2";
+  text-transform: uppercase;
+}
+ 
+.navigation-text13 {
+  font-family: "Exo 2";
+  text-transform: uppercase;
+}
+ 
+.navigation-text14 {
+  font-family: "Exo 2";
+  text-transform: uppercase;
+}
+ 
+.navigation-container3 {
+  display: none;
+}
+ 
+.navigation-container4 {
+  display: contents;
+}
+ 
+.navigation-container5 {
+  display: none;
+}
+ 
+.navigation-container6 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-root-elm {
+  width: 100%;
+  background-color: #13151c;
+}
+ 
+.footer-thq-footer-container-elm {
+  width: 100%;
+}
+ 
+
+.footer-thq-footer-top-grid-elm{
+  width:100% !important;
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:3rem;
+}
+
+.footer-thq-footer-brand-column-elm{
+  flex:1 !important;
+  min-width:300px;
+  text-align:left !important;
+  align-items:flex-start !important;
+}
+
+.footer-thq-footer-nav-column-elm{
+  flex:0 0 260px !important;
+  text-align:left !important;
+  align-items:flex-start !important;
+}
+
+ 
+.footer-thq-footer-brand-name-elm {
+  color: #fdf7f7;
+  font-family: "Exo 2";
+}
+ 
+.footer-thq-footer-description-elm {
+  fill: var(--color-neutral);
+  color: var(--color-neutral);
+}
+ 
+
+ 
+.footer-thq-footer-column-title-elm {
+  fill: var(--dl-color-theme-accent1);
+  color: var(--dl-color-theme-accent1);
+  width: 244px;
+  height: 53px;
+  align-self: flex-end;
+  text-align: left;
+}
+ 
+.footer-thq-footer-nav-list-elm {
+  width: 169px;
+  height: 256px;
+  align-self: flex-start;
+}
+ 
+.footer-text1 {
+  fill: var(--color-neutral);
+  color: var(--color-neutral);
+}
+ 
+.footer-text2 {
+  fill: var(--color-neutral);
+  color: var(--color-neutral);
+}
+ 
+.footer-text3 {
+  fill: var(--color-neutral);
+  color: var(--color-neutral);
+}
+ 
+.footer-text4 {
+  fill: var(--color-neutral);
+  color: var(--color-neutral);
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.integrated-system-workflow-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.integrated-system-workflow-thq-hero-title-elm {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-btn-elm1 {
+  text-decoration: none;
+}
+ 
+.integrated-system-workflow-text10 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-title-elm1 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-hotspot-elm1 {
+  top: 20%;
+  left: 30%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.integrated-system-workflow-thq-hotspot-elm2 {
+  top: 50%;
+  left: 50%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.integrated-system-workflow-thq-hotspot-elm3 {
+  top: 80%;
+  left: 70%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.integrated-system-workflow-thq-section-title-elm2 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-subtitle-elm2 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-title-elm3 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-subtitle-elm3 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-step-title-elm1 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-content-elm20 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-step-title-elm2 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-step-title-elm3 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-step-title-elm4 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-title-elm4 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-subtitle-elm4 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-progress-bar-elm1 {
+  width: 85%;
+}
+ 
+.integrated-system-workflow-thq-progress-bar-elm2 {
+  width: 99%;
+}
+ 
+.integrated-system-workflow-thq-progress-bar-elm3 {
+  width: 92%;
+}
+ 
+.integrated-system-workflow-thq-progress-bar-elm4 {
+  width: 88%;
+}
+ 
+.integrated-system-workflow-thq-section-title-elm5 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-thq-section-subtitle-elm5 {
+  font-family: "Exo 2";
+}
+ 
+.integrated-system-workflow-container2 {
+  display: none;
+}
+ 
+.integrated-system-workflow-container3 {
+  display: contents;
+}
+ 
+.integrated-system-workflow-container4 {
+  display: none;
+}
+ 
+.integrated-system-workflow-container5 {
+  display: contents;
+}
+ 
+.integrated-system-workflow-container6 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.integrated-system-workflow-icon65 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.integrated-system-workflow-text23 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

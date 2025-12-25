@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sensor-Page - Smart Waste Management System</title>
+    <meta
+      property="og:title"
+      content="Sensor-Page - Smart Waste Management System"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "IBM Plex Sans";
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./sensor-page.css" rel="stylesheet" />
+
+      <div class="sensor-page-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <nav class="navigation-wrapper">
+              <div
+                class="navigation-thq-navigation-container-elm navigation-container"
+              >
+                <a href="D:\Smart Waste Management System\index.html">
+                  <div
+                    aria-label="Envirovision Home"
+                    class="navigation-logo-link"
+                  >
+                    <div class="navigation-logo-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        class="navigation-icon10"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12"
+                          ></path>
+                          <path
+                            d="m14 16l-3 3l3 3m-5.707-8.404L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843"
+                          ></path>
+                          <path
+                            d="m13.378 9.633l4.096 1.098l1.097-4.096"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span
+                      class="navigation-thq-section-title-elm1 navigation-brand-name section-title"
+                    >
+                      ENVIROVISION
+                    </span>
+                  </div>
+                </a>
+                <div class="navigation-desktop-menu">
+                  <ul class="navigation-links-list">
+                    <li class="navigation-link-item">
+                      <a href="D:\Smart Waste Management System\index.html"><div class="navigation-link"><span>Home</span></div></a>
+                    </li>
+                      <li class="navigation-link-item">
+                      <a href="D:\Smart Waste Management System\AI\ai-page.html"><div class="navigation-link"><span class="navigation-link-text">AI</span></div></a>
+                    </li>
+                    <li class="navigation-link-item">
+                      <a href="D:\Smart Waste Management System\Sensor\sensor-page.html">
+                        <div class="navigation-link">
+                          <span class="navigation-link-text">Sensors</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="navigation-link-item">
+                      <a href="D:\Smart Waste Management System\Integration\integrated-system-workflow.html">
+                        <div class="navigation-link">
+                          <span class="navigation-link-text">INTEGRATION</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  id="navToggle"
+                  aria-label="Toggle Menu"
+                  aria-expanded="false"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="icon-open"
+                  >
+                    <path
+                      d="M4 6h16M4 12h16M4 18h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div
+              id="mobileOverlay"
+              aria-hidden="true"
+              class="navigation-mobile-overlay"
+            >
+              <div class="navigation-mobile-header">
+                <div class="navigation-logo-link">
+                  <div class="navigation-logo-icon">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12"
+                        ></path>
+                        <path
+                          d="m14 16l-3 3l3 3m-5.707-8.404L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843"
+                        ></path>
+                        <path d="m13.378 9.633l4.096 1.098l1.097-4.096"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <span class="navigation-brand-name section-title">
+                    Envirovision
+                  </span>
+                </div>
+                <button
+                  id="navClose"
+                  aria-label="Close Menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="3" rx="2" width="18" height="18"></rect>
+                      <path d="M9 16l3-3l3 3"></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-mobile-content">
+                <ul class="navigation-mobile-list">
+                  <li class="navigation-mobile-item">
+                    <a href="D:\Smart Waste Management System\AI\ai-page.html">
+                      <div class="navigation-mobile-link">
+                        <div class="navigation-mobile-icon">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="M12 20v2m0-20v2m5 16v2m0-20v2M2 12h2m-2 5h2M2 7h2m16 5h2m-2 5h2M20 7h2M7 20v2M7 2v2"
+                              ></path>
+                              <rect
+                                x="4"
+                                y="4"
+                                rx="2"
+                                width="16"
+                                height="16"
+                              ></rect>
+                              <rect
+                                x="8"
+                                y="8"
+                                rx="1"
+                                width="8"
+                                height="8"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="section-subtitle">
+                          AI Intelligence Layer
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="navigation-mobile-item">
+                    <a href="D:\Smart Waste Management System\Sensor\sensor-page.html">
+                      <div class="navigation-mobile-link">
+                        <div class="navigation-mobile-icon">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M17 5h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2M7 19H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2m1 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                        <span class="section-subtitle">
+                          Sensor &amp; Hardware
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="navigation-mobile-item">
+                    <a href="D:\Smart Waste Management System\Integration\integrated-system-workflow.html">
+                      <div class="navigation-mobile-link">
+                        <div class="navigation-mobile-icon">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M4 5h16M4 12h16M4 19h16"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                        <span class="section-subtitle">
+                          Integrated Workflow
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="navigation-mobile-footer">
+                  <a href="get-started.html">
+                    <div class="btn-primary navigation-mobile-cta btn-lg btn">
+                      <span>Initialize System</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .navigation-mobile-overlay {
+                    transition: none;
+                  }
+                  .navigation-logo-link:hover, .navigation-mobile-link:hover {
+                    transform: none;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const navToggle = document.getElementById("navToggle")
+                      const navClose = document.getElementById("navClose")
+                      const mobileOverlay = document.getElementById("mobileOverlay")
+                      const body = document.body
+
+                      const toggleMenu = (open) => {
+                        mobileOverlay.classList.toggle("is-active", open)
+                        navToggle.setAttribute("aria-expanded", open)
+                        mobileOverlay.setAttribute("aria-hidden", !open)
+
+                        if (open) {
+                          body.style.overflow = "hidden"
+                        } else {
+                          body.style.overflow = ""
+                        }
+                      }
+
+                      navToggle.addEventListener("click", () => toggleMenu(true))
+                      navClose.addEventListener("click", () => toggleMenu(false))
+
+                      // Close menu when clicking links
+                      const mobileLinks = mobileOverlay.querySelectorAll(".navigation-mobile-link")
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", () => toggleMenu(false))
+                      })
+
+                      // Close menu on ESC key
+                      document.addEventListener("keydown", (e) => {
+                        if (e.key === "Escape" && mobileOverlay.classList.contains("is-active")) {
+                          toggleMenu(false)
+                        }
+                      })
+
+                      // Handle scroll effect on nav bar
+                      let lastScroll = 0
+                      window.addEventListener("scroll", () => {
+                        const currentScroll = window.pageYOffset
+                        const nav = document.querySelector(".navigation-wrapper")
+
+                        if (currentScroll > 50) {
+                          nav.style.padding = "4px 0"
+                          nav.style.boxShadow = "0 4px 20px color-mix(in oklab, #000 10%, transparent)"
+                        } else {
+                          nav.style.padding = ""
+                          nav.style.boxShadow = ""
+                        }
+
+                        lastScroll = currentScroll
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="sensor-hero">
+          <video
+            src="https://videos.pexels.com/video-files/8979494/8979494-hd_1080_1920_30fps.mp4"
+            loop="true"
+            muted="true"
+            poster="https://images.pexels.com/videos/8979494/pictures/preview-0.jpeg"
+            autoplay="true"
+            playsinline="true"
+            class="sensor-hero-video"
+          ></video>
+          <div
+            class="sensor-page-thq-sensor-hero-overlay-elm sensor-hero-overlay"
+          ></div>
+          <div class="sensor-hero-content">
+            <h1 class="sensor-page-thq-hero-title-elm hero-title">
+              Sensor &amp; Hardware Layer
+            </h1>
+            <div class="sensor-hero-text-block">
+              <p class="sensor-page-thq-hero-subtitle-elm hero-subtitle">
+                <span>
+                  The physical intelligence layer, responsible for real-time
+                  sensing, material detection, and mechanical control.&nbsp;
+                </span>
+                <span>
+                  This layer converts raw environmental signals into reliable
+                  inputs for intelligent waste segregation.
+                </span>
+              </p>
+            </div>
+            <div
+              class="sensor-page-thq-sensor-hero-cards-elm sensor-hero-cards"
+            >
+              <div
+                class="sensor-page-thq-sensor-hero-card-elm1 sensor-hero-card"
+              >
+                <div class="sensor-hero-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M17 5h2a2 2 0 0 1 2 2v2m0 6v2a2 2 0 0 1-2 2h-2M7 19H5a2 2 0 0 1-2-2v-2m0-6V7a2 2 0 0 1 2-2h2m0 5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Sensing Logic</h3>
+                <p
+                  class="sensor-page-thq-section-content-elm10 section-content"
+                >
+                  Explore the decision-making pipeline for material
+                  identification.
+                </p>
+                <a
+              href="D:\Smart Waste Management System\Sensor\public\SENSING LOGIC FLOWCHART.png"
+              target="_blank"
+              class="btn btn-primary btn-sm"
+                >
+              View Flowchart
+              </a>
+
+              </div>
+              <div
+                class="sensor-page-thq-sensor-hero-card-elm2 sensor-hero-card"
+              >
+                <div class="sensor-hero-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0-14 0m0 0H2m17 0h3"
+                      ></path>
+                      <path d="M10 14v-4l2 2l2-2v4"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Actuation Flow</h3>
+                <p
+                  class="sensor-page-thq-section-content-elm11 section-content"
+                >
+                  How signals translate into mechanical motion and sorting.
+                </p>
+                <a
+              href="D:\Smart Waste Management System\Sensor\public\ACTUATION FLOW FLOWCHART.png"
+              target="_blank"
+              class="btn btn-primary btn-sm"
+                >
+              View Flowchart
+              </a>
+              </div>
+              <div
+                class="sensor-page-thq-sensor-hero-card-elm3 sensor-hero-card"
+              >
+                <div class="sensor-hero-card-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Safety Protocol</h3>
+                <p
+                  class="sensor-page-thq-section-content-elm12 section-content"
+                >
+                  The logic behind emergency stops and system resets.
+                </p>
+                <a
+              href="D:\Smart Waste Management System\Sensor\public\SAFETY PROTOCOL FLOWCHART.png"
+              target="_blank"
+              class="btn btn-primary btn-sm"
+                >
+              View Flowchart
+              </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="sensor-ultrasonic">
+          <div class="sensor-container">
+            <div class="sensor-card-layout">
+              <div class="sensor-card-visual">
+                <img
+                  alt="Ultrasonic Sensor Hardware"
+                  src="public/ultra1-1500w.png"
+                  class="sensor-page-thq-sensor-image-elm1 sensor-image"
+                />
+              </div>
+              <div class="sensor-card-info">
+                <h2 class="section-title">Ultrasonic Detection</h2>
+                <p class="section-content">
+                  The HC-SR04 ultrasonic module acts as the primary proximity
+                  and level-detection sensor. It measures the distance to
+                  incoming waste by emitting ultrasonic pulses and computing the
+                  time-of-flight of the reflected signal.
+                </p>
+                <div class="sensor-specs-grid">
+                  <div
+                    class="sensor-page-thq-sensor-spec-item-elm1 sensor-spec-item"
+                  >
+                    <span class="sensor-spec-label">detects</span>
+                    <span class="sensor-spec-value">
+                      Object Presence &amp; Fill Level&nbsp;
+                    </span>
+                  </div>
+                  <div
+                    class="sensor-page-thq-sensor-spec-item-elm2 sensor-spec-item"
+                  >
+                    <span class="sensor-spec-label">Range</span>
+                    <span
+                      class="sensor-page-thq-sensor-spec-value-elm2 sensor-spec-value"
+                    >
+                      2cm – 400cm
+                    </span>
+                  </div>
+                  <div class="sensor-spec-item">
+                    <span class="sensor-spec-label">Logic</span>
+                    <span class="sensor-spec-value">Threshold Triggering</span>
+                  </div>
+                </div>
+                <a
+                  href="D:\Smart Waste Management System\Sensor\public\Ultrasonic sensor.png"
+                  data-modal="ultrasonic-flow"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="sensor-page-thq-btn-elm4 btn-secondary sensor-dialog-trigger btn"
+                >
+                  Ultrasonic Flowchart
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="sensor-inductive">
+          <div class="sensor-container">
+            <div class="sensor-card-reverse sensor-card-layout">
+              <div class="sensor-card-visual">
+                <img
+                  alt="Inductive Proximity Sensor"
+                  src="public/ind-1500w.jpg"
+                  class="sensor-image"
+                />
+              </div>
+              <div class="sensor-card-info">
+                <h2 class="section-title">Inductive Metal Sensing</h2>
+                <p class="section-content">
+                  Inductive proximity sensors detect metallic objects using
+                  electromagnetic field disturbances, enabling non-contact metal
+                  identification.This stage performs rapid pre-filtering to
+                  distinguish metallic waste from non-metallic materials.
+                </p>
+                <div class="sensor-specs-list">
+                  <div class="sensor-list-item">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="30"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M5 12h14m-7-7l7 7l-7 7"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span class="section-content">
+                      Mounting: Positioned ~5 mm above the conveyor surface for
+                      optimal sensitivity.
+                    </span>
+                  </div>
+                  <div class="sensor-list-item">
+                    <svg
+                      width="30"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="30"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M5 12h14m-7-7l7 7l-7 7"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span class="section-content">
+                      Signal Conditioning: Debounce logic (~10 ms) applied to
+                      suppress electrical noise and false triggers.
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href="D:\Smart Waste Management System\Sensor\public\Inductive Sensor.png"
+                  data-modal="inductive-flow"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="sensor-page-thq-btn-elm5 btn-outline sensor-dialog-trigger btn"
+                >
+                  Inductive Logic Diagram
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="sensor-vision">
+          <div class="sensor-vision-grid">
+            <div class="sensor-vision-item sensor-vision-main">
+              <h2 class="section-title">Vision &amp; Illumination</h2>
+              <p class="section-content">
+                The vision subsystem combines a high-resolution Raspberry Pi
+                camera with synchronized LED ring illumination to capture
+                consistent, well-lit images. This ensures reliable visual input
+                for AI inference under varying environmental and lighting
+                conditions.
+              </p>
+              <a
+                href="D:\Smart Waste Management System\Sensor\public\Cam + LED.png"
+                data-modal="vision-flow"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="sensor-page-thq-btn-elm6 sensor-dialog-trigger btn-accent btn"
+              >
+                Vision Pipeline
+              </a>
+            </div>
+            <div class="sensor-vision-item">
+              <div class="sensor-vision-overlay">
+                <span class="section-subtitle">Real-time Capture</span>
+              </div>
+              <img
+                alt="Camera Module"
+                src="https://images.pexels.com/photos/31121842/pexels-photo-31121842.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              />
+            </div>
+            <div class="sensor-vision-item">
+              <div class="sensor-vision-overlay">
+                <span class="section-subtitle">LED Sync</span>
+              </div>
+              <img
+                alt="LED Array"
+                src="https://images.pexels.com/photos/30720531/pexels-photo-30720531.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              />
+            </div>
+            <div class="sensor-vision-item">
+              <div class="sensor-vision-overlay">
+                <span class="section-subtitle">Sample Output</span>
+              </div>
+              <img
+                alt="Processed Image"
+                src="https://images.pexels.com/photos/31336881/pexels-photo-31336881.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="sensor-limits">
+          <div class="sensor-container">
+            <div class="sensor-split">
+              <div class="sensor-split-content">
+                <h2 class="section-title">Limit Switches</h2>
+                <p class="section-content">
+                  Mechanical limit switches act as hardware fail-safes that
+                  define the physical boundaries of motion. They prevent
+                  over-rotation, motor stall, and structural damage during
+                  high-speed sorting operations.
+                </p>
+                <div class="sensor-feature-box">
+                  <h4 class="section-subtitle">Debounce Logic</h4>
+                  <p class="section-content">
+                    Software-level filtering is applied to suppress false
+                    triggers caused by mechanical vibration and contact bounce.
+                  </p>
+                </div>
+                <a
+                  href="D:\Smart Waste Management System\Sensor\public\Limit Switches.png"
+                  data-modal="limit-flow"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="sensor-page-thq-btn-elm7 btn-primary sensor-dialog-trigger btn"
+                >
+                  Limit Switch Flowchart
+                </a>
+              </div>
+              <div class="sensor-split-visual">
+                <img
+                  alt="Mechanical Limit Switch"
+                  src="public/ls-1500w.jpg"
+                  class="sensor-image-rounded"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="sensor-motors">
+          <div class="sensor-container">
+            <div class="sensor-card-reverse sensor-split">
+              <div class="sensor-split-content">
+                <h2 class="section-title">Motor Control</h2>
+                <p class="section-content">
+                  Motor control logic translates validated system decisions into
+                  precise mechanical motion. Controlled actuation ensures
+                  accurate bin alignment, smooth rotation, and reliable waste
+                  deposition without overshoot or mechanical stress.
+                </p>
+                <div class="sensor-motor-specs">
+                  <div class="sensor-motor-chip">
+                    <span>Motion Control Logic</span>
+                  </div>
+                  <div class="sensor-motor-chip">
+                    <span>Driver-Level Actuation</span>
+                  </div>
+                  <div class="sensor-motor-chip">
+                    <span>Position Interlocks</span>
+                  </div>
+                </div>
+                <a
+                  href="D:\Smart Waste Management System\Sensor\public\Motor control.png"
+                  data-modal="motor-flow"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="sensor-page-thq-btn-elm8 btn-secondary sensor-dialog-trigger btn"
+                >
+                  Motion Control Flowchart
+                </a>
+              </div>
+              <div class="sensor-split-visual">
+                <img
+                  alt="Robotic Motor Actuator"
+                  src="public/rm-1500w.jpeg"
+                  class="sensor-image-rounded"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="sensor-page-thq-sensor-safety-elm sensor-safety"
+        ></section>
+        <section class="sensor-page-thq-sensor-timeline-elm sensor-timeline">
+          <div class="sensor-timeline-header">
+            <h2 class="section-title">SENSOR LAYER EXECUTION FLOW</h2>
+            <p class="section-content">
+              Trace how physical sensors detect, validate, and actuate a single
+              waste item before system-level intelligence is applied.
+            </p>
+          </div>
+          <div class="sensor-timeline-wrapper">
+            <div class="sensor-timeline-track">
+              <div class="sensor-timeline-event">
+                <div class="sensor-event-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M17 4h1a2 2 0 0 1 2 2v1m0 10v1a2 2 0 0 1-2 2h-1M7 20H6a2 2 0 0 1-2-2v-1M4 7V6a2 2 0 0 1 2-2h1m2 8a3 3 0 1 0 6 0a3 3 0 1 0-6 0m3 6v2m-8-8h2m6-8v2m8 6h-2"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="sensor-event-dot"></div>
+                <span class="section-subtitle">Entry Detection</span>
+                <p
+                  class="sensor-page-thq-section-content-elm22 section-content"
+                >
+                  Ultrasonic sensing detects object entry and transitions the
+                  system from idle to active sensing mode.
+                </p>
+              </div>
+              <div class="sensor-timeline-event">
+                <div class="sensor-event-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"
+                      ></path>
+                      <circle r="3" cx="12" cy="13"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <div class="sensor-event-dot"></div>
+                <span class="section-subtitle">Physical Sensing</span>
+                <p
+                  class="sensor-page-thq-section-content-elm23 section-content"
+                >
+                  Vision and inductive sensors capture raw physical signals,
+                  including visual data and material properties.
+                </p>
+              </div>
+              <div class="sensor-timeline-event">
+                <div class="sensor-event-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M12 20v2m0-20v2m5 16v2m0-20v2M2 12h2m-2 5h2M2 7h2m16 5h2m-2 5h2M20 7h2M7 20v2M7 2v2"
+                      ></path>
+                      <rect x="4" y="4" rx="2" width="16" height="16"></rect>
+                      <rect x="8" y="8" rx="1" width="8" height="8"></rect>
+                    </g>
+                  </svg>
+                </div>
+                <div class="sensor-event-dot"></div>
+                <span class="section-subtitle">Signal Validation</span>
+                <p
+                  class="sensor-page-thq-section-content-elm24 section-content"
+                >
+                  Sensor outputs are filtered, thresholded, and validated to
+                  ensure reliable and noise-free inputs for downstream logic.
+                </p>
+              </div>
+              <div class="sensor-timeline-event">
+                <div class="sensor-event-icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0-14 0m0 0H2m17 0h3"
+                      ></path>
+                      <path d="M10 14v-4l2 2l2-2v4"></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="sensor-event-dot"></div>
+                <span class="section-subtitle">Motion Actuation</span>
+                <p
+                  class="sensor-page-thq-section-content-elm25 section-content"
+                >
+                  Motion control logic executes controlled mechanical movement
+                  based on validated sensor states.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <dialog id="flowchart-modal" class="sensor-modal">
+          <div class="sensor-modal-header">
+            <h2 id="modal-title" class="section-title">Flowchart Diagram</h2>
+            <button id="close-modal" class="btn-link btn">Close</button>
+          </div>
+          <div class="sensor-modal-body">
+            <div class="sensor-flow-placeholder">
+              <svg
+                width="48"
+                xmlns="http://www.w3.org/2000/svg"
+                height="48"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 20v2m0-20v2m5 16v2m0-20v2M2 12h2m-2 5h2M2 7h2m16 5h2m-2 5h2M20 7h2M7 20v2M7 2v2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <rect x="4" y="4" rx="2" width="16" height="16"></rect>
+                <rect x="8" y="8" rx="1" width="8" height="8"></rect>
+              </svg>
+              <p class="section-content">
+                <span>Detailed Logic Diagram for</span>
+                <span id="modal-target-name">this component</span>
+                <span>will open in a new tab....</span>
+              </p>
+              <div class="sensor-loading-bar"></div>
+            </div>
+          </div>
+        </dialog>
+        <div class="sensor-page-container2">
+          <div class="sensor-page-container3">
+            <style>
+                      @keyframes loading {0% {left: -100%;}
+              100% {left: 100%;}}
+            </style>
+          </div>
+        </div>
+        <div class="sensor-page-container4">
+          <div class="sensor-page-container5">
+            <script defer="" data-name="sensor-logic">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const modal = document.getElementById("flowchart-modal")
+                  const modalTitle = document.getElementById("modal-title")
+                  const modalTargetName = document.getElementById("modal-target-name")
+                  const closeBtn = document.getElementById("close-modal")
+                  const triggers = document.querySelectorAll(".sensor-dialog-trigger")
+
+                  triggers.forEach((trigger) => {
+                    trigger.addEventListener("click", () => {
+                      const modalType = trigger.getAttribute("data-modal")
+                      const componentName = trigger.innerText.replace("View ", "").replace(" Flowchart", "")
+
+                      modalTitle.innerText = `${componentName} Architecture`
+                      modalTargetName.innerText = componentName
+
+                      modal.showModal()
+                    })
+                  })
+
+                  closeBtn.addEventListener("click", () => {
+                    modal.close()
+                  })
+
+                  modal.addEventListener("click", (e) => {
+                    if (e.target === modal) {
+                      modal.close()
+                    }
+                  })
+
+                  // Intersection Observer for reveal animations
+                  const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: "0px 0px -50px 0px",
+                  }
+
+                  const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1"
+                        entry.target.style.transform = "translateY(0)"
+                        observer.unobserve(entry.target)
+                      }
+                    })
+                  }, observerOptions)
+
+                  document.querySelectorAll("section").forEach((section) => {
+                    section.style.opacity = "0"
+                    section.style.transform = "translateY(30px)"
+                    section.style.transition = "all 0.8s cubic-bezier(0.22, 1, 0.36, 1)"
+                    observer.observe(section)
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-root">
+              <div class="footer-overlay"></div>
+              <div class="footer-container">
+                <div class="footer-top-grid">
+                  <div class="footer-brand-column">
+                    <div class="footer-logo-wrapper">
+                      <a href="D:\Smart Waste Management System\index.html" class="footer-logo-wrapper">
+                      <div
+                        class="footer-thq-footer-logo-icon-elm footer-logo-icon"
+                      >
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12"
+                            ></path>
+                            <path
+                              d="m14 16l-3 3l3 3m-5.707-8.404L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843"
+                            ></path>
+                            <path
+                              d="m13.378 9.633l4.096 1.098l1.097-4.096"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <span class="footer-brand-name">Envirovision</span>
+                       </a>
+                    </div>
+                    <p class="footer-brand-description section-content">
+                      Revolutionizing waste management through physical
+                      intelligence and advanced AI. Building a sustainable
+                      future, one pixel and one sensor at a time.
+                    </p>
+                  </div>
+                  <div class="footer-links-column">
+                    <h2 class="footer-column-title section-subtitle">
+                      System Architecture
+                    </h2>
+                    <nav class="footer-nav">
+                      <ul class="footer-list">
+                        <li class="footer-li1">
+                          <a href="D:\Smart Waste Management System\index.html">
+                            <div class="footer-link">
+                              <span class="footer-text1">Home Overview</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="D:\Smart Waste Management System\AI\ai-page.html">
+                            <div class="footer-link">
+                              <span class="footer-text2">
+                                AI Intelligence Layer
+                              </span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="D:\Smart Waste Management System\Sensor\sensor-page.html">
+                            <div class="footer-link">
+                              <span class="footer-text3">
+                                Sensor &amp; Hardware
+                              </span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="D:\Smart Waste Management System\Integration\integrated-system-workflow.html">
+                            <div class="footer-link">
+                              <span class="footer-text4">
+                                Integrated Workflow
+                              </span>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .footer-social-btn, .footer-link {
+                    transition: none !important;
+                    transform: none !important;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="footer-container4">
+              <div class="footer-container5">
+                <script defer="" data-name="footer-interactivity">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const footerLinks = document.querySelectorAll(".footer-link, .footer-social-btn")
+
+                      footerLinks.forEach((link) => {
+                        link.addEventListener("mouseenter", () => {
+                          const ripple = document.createElement("span")
+                          ripple.classList.add("footer-ripple")
+                          link.appendChild(ripple)
+                          setTimeout(() => ripple.remove(), 1000)
+                        })
+                      })
+
+                      const observerOptions = {
+                        threshold: 0.1,
+                      }
+
+                      const footerObserver = new IntersectionObserver((entries) => {
+                        entries.forEach((entry) => {
+                          if (entry.isIntersecting) {
+                            entry.target.style.opacity = "1"
+                            entry.target.style.transform = "translateY(0)"
+                          }
+                        })
+                      }, observerOptions)
+
+                      const footerColumns = document.querySelectorAll(".footer-brand-column, .footer-links-column")
+                      footerColumns.forEach((col) => {
+                        col.style.opacity = "0"
+                        col.style.transform = "translateY(20px)"
+                        col.style.transition = "all 0.6s cubic-bezier(0.22, 1, 0.36, 1)"
+                        footerObserver.observe(col)
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+        
+    </div>
+  </body>
+</html>

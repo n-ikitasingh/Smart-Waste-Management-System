@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AI-Page-Smart Waste Management System</title>
+    <meta property="og:title" content="AI-Page-Smart Waste Management System" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Work Sans";
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./ai-page.css" rel="stylesheet" />
+
+      <div class="ai-page-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .navigation-mobile-overlay, .navigation-logo, .navigation-status-dot, .navigation-overlay-link {
+                    transition: none !important;
+                    animation: none !important;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <nav class="navigation-wrapper">
+              <div class="navigation-container">
+                <a href="D:\Smart Waste Management System\index.html">
+                  <div aria-label="SegriAI Home" class="navigation-logo">
+                    <div class="navigation-logo-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12"
+                          ></path>
+                          <path
+                            d="m14 16l-3 3l3 3m-5.707-8.404L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843"
+                          ></path>
+                          <path
+                            d="m13.378 9.633l4.096 1.098l1.097-4.096"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="section-title navigation-brand">
+                      ENVIROVISION
+                    </span>
+                  </div>
+                </a>
+                <div class="navigation-desktop-menu">
+                  <a href="D:\Smart Waste Management System\index.html"><div class="navigation-link"><span>Home</span></div></a>
+                  <a href="D:\Smart Waste Management System\AI\ai-page.html">
+                    <div class="navigation-link"><span>AI</span></div>
+                  </a>
+                  <a href="D:\Smart Waste Management System\Sensor\sensor-page.html">
+                    <div class="navigation-link"><span>Sensors</span></div>
+                  </a>
+                  <a href="D:\Smart Waste Management System\Integration\integrated-system-workflow.html">
+                    <div class="navigation-link"><span>INTEGRATION</span></div>
+                  </a>
+                </div>
+                <button
+                  id="navToggle"
+                  aria-label="Open Menu"
+                  aria-expanded="false"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 6h16M4 12h16M4 18h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div id="mobileOverlay" class="navigation-mobile-overlay">
+              <div class="navigation-overlay-header">
+                <a href="D:\Smart Waste Management System\index.html">
+                  <div aria-label="Envirovision Home" class="navigation-logo">
+                    <span class="section-title navigation-brand">Envirovision</span>
+                  </div>
+                </a>
+                <button
+                  id="navClose"
+                  aria-label="Close Menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="3" rx="2" width="18" height="18"></rect>
+                      <path d="M15 3v18M8 9l3 3l-3 3"></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-overlay-content">
+                <div class="navigation-overlay-links">
+                  <a href="D:\Smart Waste Management System\AI\ai-page.html">
+                    <div class="navigation-overlay-link">
+                      <div class="navigation-link-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M12 18V5m3 8a4.17 4.17 0 0 1-3-4a4.17 4.17 0 0 1-3 4m8.598-6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"
+                            ></path>
+                            <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path>
+                            <path d="M18 18a4 4 0 0 0 2-7.464"></path>
+                            <path
+                              d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"
+                            ></path>
+                            <path d="M6 18a4 4 0 0 1-2-7.464"></path>
+                            <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <span>AI Intelligence</span>
+                    </div>
+                  </a>
+                  <a href="D:\Smart Waste Management System\Sensor\sensor-page.html">
+                    <div class="navigation-overlay-link">
+                      <div class="navigation-link-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <rect
+                              x="3"
+                              y="3"
+                              rx="2"
+                              width="18"
+                              height="18"
+                            ></rect>
+                            <path d="M3 9h18M9 16l3-3l3 3"></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <span>Sensor Layer</span>
+                    </div>
+                  </a>
+                  <a href="D:\Smart Waste Management System\Integration\integrated-system-workflow.html">
+                    <div class="navigation-overlay-link">
+                      <div class="navigation-link-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12"
+                            ></path>
+                            <path
+                              d="m14 16l-3 3l3 3m-5.707-8.404L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843"
+                            ></path>
+                            <path
+                              d="m13.378 9.633l4.096 1.098l1.097-4.096"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <span>System Workflow</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="navigation-overlay-footer">
+                  <a href="contact.html">
+                    <div class="btn btn-primary btn-xl">
+                      <span>Initialize System</span>
+                    </div>
+                  </a>
+                  <div class="navigation-status">
+                    <div class="navigation-status-dot"></div>
+                    <span class="section-content">AI Nodes Online</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <style>
+                          @keyframes pulse {0% {opacity: 0.4;
+                  transform: scale(0.8);}
+                  50% {opacity: 1;
+                  transform: scale(1.1);}
+                  100% {opacity: 0.4;
+                  transform: scale(0.8);}}
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container6">
+              <div class="navigation-container7">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const navToggle = document.getElementById("navToggle")
+                      const navClose = document.getElementById("navClose")
+                      const mobileOverlay = document.getElementById("mobileOverlay")
+                      const overlayLinks = document.querySelectorAll(".navigation-overlay-link")
+
+                      const openMenu = () => {
+                        mobileOverlay.classList.add("is-active")
+                        navToggle.setAttribute("aria-expanded", "true")
+                        document.body.style.overflow = "hidden"
+                      }
+
+                      const closeMenu = () => {
+                        mobileOverlay.classList.remove("is-active")
+                        navToggle.setAttribute("aria-expanded", "false")
+                        document.body.style.overflow = ""
+                      }
+
+                      navToggle.addEventListener("click", openMenu)
+                      navClose.addEventListener("click", closeMenu)
+
+                      overlayLinks.forEach((link) => {
+                        link.addEventListener("click", () => {
+                          closeMenu()
+                        })
+                      })
+
+                      window.addEventListener("keydown", (e) => {
+                        if (e.key === "Escape" && mobileOverlay.classList.contains("is-active")) {
+                          closeMenu()
+                        }
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="hero-ai-workflow">
+          <div class="hero-ai-workflow__video-container">
+            <video
+              src="https://videos.pexels.com/video-files/18333010/18333010-hd_1280_720_25fps.mp4"
+              loop="true"
+              muted="true"
+              autoplay="true"
+              playsinline="true"
+              class="hero-ai-workflow__video"
+            ></video>
+            <div
+              class="ai-page-thq-hero-ai-workflowoverlay-elm hero-ai-workflow__overlay"
+            ></div>
+          </div>
+          <div class="hero-ai-workflow__content">
+            <div class="hero-ai-workflow__header">
+              <h1 class="hero-title">AI Intelligence Layer</h1>
+              <p class="hero-subtitle">
+                Where computer vision and deep learning work together for precision material recognition.
+              </p>
+            </div>
+            <div class="hero-ai-workflow__grid">
+              <div
+                class="ai-page-thq-hero-ai-workflowcard-elm1 hero-ai-workflow__card"
+              >
+                <div class="hero-ai-workflow__icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                      <path d="M3 5v14a9 3 0 0 0 18 0V5"></path>
+                      <path d="M3 12a9 3 0 0 0 18 0"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Data Collection</h3>
+                <p class="section-content">
+Curating a diverse dataset of waste materials to ensure reliable learning across real-world scenarios
+                </p>
+                <a href="#data-collection">
+                  <div class="ai-page-thq-btn-elm1 btn btn-primary btn-lg">
+                    <span>See How It Works</span>
+                  </div>
+                </a>
+              </div>
+              <div class="hero-ai-workflow__card">
+                <div class="hero-ai-workflow__icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M12 18V5m3 8a4.17 4.17 0 0 1-3-4a4.17 4.17 0 0 1-3 4m8.598-6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"
+                      ></path>
+                      <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path>
+                      <path d="M18 18a4 4 0 0 0 2-7.464"></path>
+                      <path
+                        d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"
+                      ></path>
+                      <path d="M6 18a4 4 0 0 1-2-7.464"></path>
+                      <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Model Building</h3>
+                <p class="section-content">
+                  Designing and training neural models that learn visual patterns and classify materials with high precision.
+                </p>
+                <a href="#model-building">
+                  <div class="btn-secondary btn btn-lg">
+                    <span>See How It Works</span>
+                  </div>
+                </a>
+              </div>
+              <div class="hero-ai-workflow__card">
+                <div class="hero-ai-workflow__icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M5.636 19.364a9 9 0 1 1 12.728 0M16 9l-4 4"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Testing &amp; Interface</h3>
+                <p class="section-content">
+                  Validating model accuracy and building an intuitive interface for seamless real-time prediction and system integration.
+                </p>
+                <a href="#ai-testing">
+                  <div class="btn btn-accent btn-lg">
+                    <span>See How It Works</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="ai-process-flow">
+          <div class="ai-process-flow__container">
+            <h2 class="section-title">High-Level System Flow</h2>
+            <div class="ai-process-flow__steps">
+              <div class="ai-process-flow__step">
+                <div class="ai-process-flow__number"><span>01</span></div>
+                <div class="ai-process-flow__line"></div>
+                <h3 class="section-subtitle">Data Acquisition</h3>
+                <p class="section-content">
+                  Multi-modal sensor fusion capturing physical and visual
+                  traits.
+                </p>
+              </div>
+              <div class="ai-process-flow__step">
+                <div class="ai-process-flow__number"><span>02</span></div>
+                <div class="ai-process-flow__line"></div>
+                <h3 class="section-subtitle">Neural Processing</h3>
+                <p class="section-content">
+                  Real-time inference using optimized CNN architectures.
+                </p>
+              </div>
+              <div class="ai-process-flow__step">
+                <div class="ai-process-flow__number"><span>03</span></div>
+                <div class="ai-process-flow__line"></div>
+                <h3 class="section-subtitle">Actuation Control</h3>
+                <p class="section-content">
+                  Translating AI decisions into precise mechanical sorting
+                  actions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="data-collection" class="data-collection-features">
+          <div class="data-collection-features__container">
+            <div class="data-collection-features__header">
+              <h2 class="section-title">Data Collection Strategy</h2>
+              <p class="section-content">
+                The foundation of our AI's accuracy lies in the quality and
+                diversity of our dataset.
+              </p>
+            </div>
+            <div class="data-collection-features__grid">
+              <div class="data-collection-features__item">
+                <div class="data-collection-features__icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      ></path>
+                      <path d="m9 12l2 2l4-4"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Privacy by Design</h3>
+                <p class="section-content">
+                  All data is anonymized at the edge. We ensure zero PII
+                  (Personally Identifiable Information) enters the cloud
+                  pipeline.
+                </p>
+              </div>
+              <div class="data-collection-features__item">
+                <div class="data-collection-features__icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M12 20v2m0-20v2m5 16v2m0-20v2M2 12h2m-2 5h2M2 7h2m16 5h2m-2 5h2M20 7h2M7 20v2M7 2v2"
+                      ></path>
+                      <rect x="4" y="4" rx="2" width="16" height="16"></rect>
+                      <rect x="8" y="8" rx="1" width="8" height="8"></rect>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Consistent Sampling</h3>
+                <p class="section-content">
+                  Collecting a diverse set of metal, paper, and plastic objects
+                  to ensure balanced training.
+                </p>
+              </div>
+              <div class="data-collection-features__item">
+                <div class="data-collection-features__icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
+                      <circle r="2" cx="12" cy="6"></circle>
+                      <circle r="2" cx="16" cy="12"></circle>
+                      <circle r="2" cx="9" cy="15"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Clean Labeling</h3>
+                <p class="section-content">
+                  Organizing and labeling images accurately so the model learns
+                  correct patterns.
+                </p>
+              </div>
+              <div class="data-collection-features__item">
+                <div class="data-collection-features__icon">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"
+                      ></path>
+                      <path
+                        d="M14 2v5a1 1 0 0 0 1 1h5m-4 5l-3.5 3.5l-2-2L8 17"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Controlled Environment</h3>
+                <p class="section-content">
+                  Images are captured in a stable and repeatable setup to avoid
+                  noise and improve classification accuracy.
+                </p>
+              </div>
+            </div>
+            <div class="data-collection-features__cta">
+              <a
+                href="D:\Smart Waste Management System\AI\public\Data Collection Flowchart.png"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="ai-page-thq-btn-elm4 btn btn-primary btn-xl"
+              >
+                Open Data Collection Flowchart
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="model-building" class="model-building-features">
+          <div class="model-building-features__container">
+            <div class="model-building-features__header">
+              <h2 class="section-title">Model Architecture &amp; Training</h2>
+              <p class="section-content">
+                Our training pipeline is engineered for high accuracy and
+                low-latency inference on the edge.
+              </p>
+            </div>
+            <div class="model-building-features__grid">
+              <div class="model-building-features__item">
+                <h3 class="section-subtitle">CNN Architectures</h3>
+                <p class="section-content">
+                  <span>(Lightweight Vision Models)</span>
+                  <br />
+                  <span>
+                    We use a compact convolution-based model optimized for quick
+                    inference and smooth real-time sorting.
+                  </span>
+                  Custom lightweight Convolutional Neural Networks optimized for
+                  real-time vision on ARM-based hardware.
+                </p>
+              </div>
+              <div class="model-building-features__item">
+                <h3 class="section-subtitle">Training Pipeline</h3>
+                <p class="section-content">
+                  <span>(Structured Training Workflow)</span>
+                  <br />
+                  <span>
+                    The model is trained using a balanced dataset with
+                    augmentation and fine-tuning to improve accuracy.
+                  </span>
+                  Automated hyperparameter tuning using Bayesian optimization to
+                  find the most efficient weight distribution.
+                </p>
+              </div>
+              <div class="model-building-features__item">
+                <h3 class="section-subtitle">Validation Metrics</h3>
+                <p class="section-content">
+                  <span>(Performance Evaluation)</span>
+                  <br />
+                  <span>
+                    Accuracy, loss curves and confusion matrices are monitored
+                    to ensure consistent model behavior across all classes.
+                  </span>
+                  Rigorous F1-score and confusion matrix analysis to ensure
+                  balanced performance across all waste categories.
+                </p>
+              </div>
+              <div class="model-building-features__item">
+                <h3 class="section-subtitle">Deployment Formats</h3>
+                <p class="section-content">
+                  <span>(Edge-Optimized Output)</span>
+                  <br />
+                  <span>
+                    The trained model is exported in lightweight formats
+                    suitable for Raspberry Pi deployment.
+                  </span>
+                  Quantized ONNX and TensorRT models for maximum throughput and
+                  minimal energy consumption.
+                </p>
+              </div>
+            </div>
+            <div class="model-building-features__cta">
+              <a
+                href="D:\Smart Waste Management System\AI\public\Model Building Flowchart.png"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="ai-page-thq-btn-elm5 btn-secondary btn btn-xl"
+              >
+                View Model Building Flowchart
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="ai-testing" class="testing-interface-features">
+          <div class="testing-interface-features__container">
+            <div class="testing-interface-features__header">
+              <h2 class="section-title">Testing &amp; Operator Interface</h2>
+              <p class="section-content">
+                Ensuring stable AI predictions and smooth interaction with the
+                hardware system.
+              </p>
+            </div>
+            <div class="testing-interface-features__grid">
+              <div class="testing-interface-features__item">
+                <h3 class="section-subtitle">Simulation Testing</h3>
+                <p class="section-content">
+                  Running the AI model on sample waste images to verify
+                  classification accuracy before hardware deployment.
+                </p>
+              </div>
+              <div class="testing-interface-features__item">
+                <h3 class="section-subtitle">System Validation</h3>
+                <p class="section-content">
+                  Checking the model’s performance across different lighting
+                  conditions and object variations.
+                </p>
+              </div>
+              <div class="testing-interface-features__item">
+                <h3 class="section-subtitle">Performance Monitoring</h3>
+                <p class="section-content">
+                  Tracking prediction speed, confidence scores, and system
+                  stability during operation.
+                </p>
+              </div>
+              <div class="testing-interface-features__item">
+                <h3 class="section-subtitle">Simple Control Panel</h3>
+                <p class="section-content">
+                  A user interface that triggers the AI, shows predictions, and
+                  helps operators understand system behavior.
+                </p>
+              </div>
+              <div class="testing-interface-features__item">
+                <h3 class="section-subtitle">Error Handling</h3>
+                <p class="section-content">
+                  Identifying unclear or confusing cases using threshold logic
+                  and routing them safely to the miscellaneous bin.
+                </p>
+              </div>
+              <div class="testing-interface-features__item">
+                <h3 class="section-subtitle">Safe Integration</h3>
+                <p class="section-content">
+                  Ensuring reliable communication between the AI output and the
+                  hardware mechanisms.
+                </p>
+              </div>
+            </div>
+            <div class="testing-interface-features__cta">
+              <a
+                href="D:\Smart Waste Management System\AI\public\AI Testing & Interface Flowchart.png"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="ai-page-thq-btn-elm6 btn btn-accent btn-xl"
+              >
+                View AI Testing &amp; Interface Flowchart
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="ai-stats-panel">
+          <div class="ai-stats-panel__container">
+            <div class="ai-stats-panel__grid">
+              <div class="ai-stats-panel__card">
+                <span class="ai-stats-panel__value">97.6%</span>
+                <span class="ai-stats-panel__label">
+                  Classification Accuracy
+                </span>
+              </div>
+              <div class="ai-stats-panel__card">
+                <span class="ai-stats-panel__value">&lt;35ms</span>
+                <span class="ai-stats-panel__label">Inference Latency</span>
+              </div>
+              <div class="ai-stats-panel__card">
+                <span class="ai-stats-panel__value">22K+</span>
+                <span class="ai-stats-panel__label">Labeled Dataset Size</span>
+              </div>
+              <div class="ai-stats-panel__card">
+                <span class="ai-stats-panel__value">Stable</span>
+                <span class="ai-stats-panel__label">REAL TIME OPERATION</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="ai-page-container2">
+          <div class="ai-page-container3">
+            <script defer="" data-name="ai-page-logic">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const carousel = document.getElementById("flowchartCarousel")
+                  const nextBtn = document.getElementById("nextFlow")
+                  const prevBtn = document.getElementById("prevFlow")
+                  let currentIndex = 0
+                  const totalItems = 3
+
+                  function updateCarousel() {
+                    const offset = currentIndex * -33.333
+                    carousel.style.transform = `translateX(${offset}%)`
+                  }
+
+                  nextBtn.addEventListener("click", () => {
+                    currentIndex = (currentIndex + 1) % totalItems
+                    updateCarousel()
+                  })
+
+                  prevBtn.addEventListener("click", () => {
+                    currentIndex = (currentIndex - 1 + totalItems) % totalItems
+                    updateCarousel()
+                  })
+
+                  // Smooth appearance for stats on scroll
+                  const stats = document.querySelectorAll(".ai-stats-panel__value")
+                  const observerOptions = {
+                    threshold: 0.5,
+                  }
+
+                  const statsObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.animation = "countIn 1s ease forwards"
+                      }
+                    })
+                  }, observerOptions)
+
+                  stats.forEach((stat) => statsObserver.observe(stat))
+
+                  // Parallax effect for hero video
+                  window.addEventListener("scroll", () => {
+                    const scroll = window.pageYOffset
+                    const video = document.querySelector(".hero-ai-workflow__video")
+                    if (video) {
+                      video.style.transform = `translateY(${scroll * 0.4}px)`
+                    }
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-root">
+              <div class="footer-background">
+                <img
+                  alt="Futuristic sustainable technology background"
+                  src="https://images.pexels.com/photos/17485683/pexels-photo-17485683.png?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                  loading="lazy"
+                />
+                <div class="footer-overlay"></div>
+              </div>
+              <div class="footer-container">
+                <div class="footer-main-grid">
+                  <div class="footer-column footer-brand-column">
+                    <div class="footer-logo-wrapper">
+                      <a href="D:\Smart Waste Management System\index.html" class="footer-logo-wrapper">
+                      <div class="footer-logo-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881a1.79 1.79 0 0 1-.004-1.784L7.196 9.5M11 19h8.203a1.83 1.83 0 0 0 1.556-.89a1.78 1.78 0 0 0 0-1.775l-1.226-2.12"
+                            ></path>
+                            <path
+                              d="m14 16l-3 3l3 3m-5.707-8.404L7.196 9.5L3.1 10.598m6.244-4.787l1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.78 1.78 0 0 1 1.546.888l3.943 6.843"
+                            ></path>
+                            <path
+                              d="m13.378 9.633l4.096 1.098l1.097-4.096"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      
+                      <span class="footer-brand-name">Envirovision</span>
+                      </a>
+                    </div>
+                    <p class="section-content footer-brand-tagline">
+                      Revolutionizing waste management through the perfect
+                      synergy of physical intelligence and artificial
+                      intelligence.
+                    </p>
+                  </div>
+                  <div
+                    class="footer-thq-footer-column-elm2 footer-links-column footer-column"
+                  >
+                    <h3 class="footer-column-title section-subtitle">
+                      System Architecture
+                    </h3>
+                    <nav class="footer-nav">
+                      <ul class="footer-link-list">
+                        <li>
+                          <a href="D:\Smart Waste Management System\index.html">
+                            <div class="footer-link">
+                              <span class="footer-text1">Home Overview</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="D:\Smart Waste Management System\AI\ai-page.html">
+                            <div class="footer-link">
+                              <span>AI Intelligence Layer</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="D:\Smart Waste Management System\Sensor\sensor-page.html">
+                            <div class="footer-link">
+                              <span>Sensor &amp; Hardware</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="D:\Smart Waste Management System\Integration\integrated-system-workflow.html">
+                            <div class="footer-link">
+                              <span>Integrated Workflow</span>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .footer-social-btn:hover, .footer-link:hover {
+                    transform: none;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="footer-container4">
+              <div class="footer-container5">
+                <script defer="" data-name="footer-interactions">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const footerIcons = document.querySelectorAll(".footer-social-btn")
+
+                      footerIcons.forEach((icon) => {
+                        icon.addEventListener("mouseenter", () => {
+                          const svg = icon.querySelector("svg")
+                          if (svg) {
+                            svg.style.transition = "transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+                            svg.style.transform = "scale(1.2) rotate(8deg)"
+                          }
+                        })
+
+                        icon.addEventListener("mouseleave", () => {
+                          const svg = icon.querySelector("svg")
+                          if (svg) {
+                            svg.style.transform = "scale(1) rotate(0deg)"
+                          }
+                        })
+                      })
+
+                      const footerLinks = document.querySelectorAll(".footer-link")
+                      footerLinks.forEach((link) => {
+                        link.addEventListener("mouseenter", () => {
+                          link.style.letterSpacing = "0.05em"
+                        })
+                        link.addEventListener("mouseleave", () => {
+                          link.style.letterSpacing = "inherit"
+                        })
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+        
+  </body>
+</html>
