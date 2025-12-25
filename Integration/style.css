@@ -768,10 +768,10 @@
 .navigation-mobile-overlay {
   inset: 0;
   display: none;
-  z-index: 1100;
   position: fixed;
   transform: translateX(100%);
-  background: var(--color-surface);
+  background: white !important;
+  z-index: 999999 !important;
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   flex-direction: column;
 }
@@ -865,12 +865,18 @@
 }
  
 .navigation-mobile-links {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+  text-decoration: none;
   gap: var(--spacing-xl);
   margin: 0;
   display: flex;
-  padding: 0;
+  padding: 10px 14px;
   list-style: none;
   flex-direction: column;
+  background: white;
+  border-radius: 8px;
 }
  
 
